@@ -1,0 +1,14 @@
+{
+  "name": "vendor_library",
+  "content": {
+    "./plugins/slider.revolution/css/extralayers.css": 1,
+    "./plugins/slider.revolution/css/settings.css": 5,
+    "./modules/website/css/essentials.css": 7,
+    "./modules/website/css/layout.css": 9,
+    "./modules/website/css/header-1.css": 11,
+    "./modules/website/css/color_scheme/blue.css": 13,
+    "./modules/website/public/font/iconfont.css": 15,
+    "./plugins/slider.revolution/js/jquery.themepunch.revolution.js": 17,
+    "./modules/website/js/view/demo.revolution_slider.js": 18
+  }
+}

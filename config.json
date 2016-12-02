@@ -1,0 +1,76 @@
+{
+    "md5path" : "md5-map.json",
+    "dest" : "build/",
+    "src" : "src/",
+    "dllServerPort": 8887,
+    "devServerPort": 4000,
+    "website" : {
+        "clean": "build/",
+        "js": {
+            "src": "modules/website/**/*.js",
+            "ignore": ["modules/website/**/*.min.js"],
+            "dest": "build/modules/website/",
+            "md5": ["build/**/modules/website/**/*.js", "!build/**/modules/website/**/*.min.js"]
+        },
+        "css": {
+            "src": "modules/website/**/*.css",
+            "dest": "build/modules/website/",
+            "md5": ["build/**/modules/website/**/*.css", "!build/**/modules/website/**/*.min.css"]
+        },
+        "img": {
+          "src": [
+            "modules/website/**/*.{jpge,jpg,gif,png}"
+          ],
+          "dest": "modules/website/"
+        },
+        "vendor":[
+            "./plugins/slider.revolution/css/extralayers.css",
+            "./plugins/slider.revolution/css/settings.css",
+            "./modules/website/css/essentials.css",
+            "./modules/website/css/layout.css",
+            "./modules/website/css/header-1.css",
+            "./modules/website/css/color_scheme/blue.css",
+            "./modules/website/public/font/iconfont.css",
+           
+            "./plugins/slider.revolution/js/jquery.themepunch.revolution.js",
+            "./modules/website/js/view/demo.revolution_slider.js"
+
+
+
+        ]
+    },
+    "admin" : {
+        "clean": "build/",
+        "js": {
+            "src": "modules/admin/**/*.js",
+            "ignore": ["modules/admin/**/*.min.js"],
+            "dest": "build/modules/admin/",
+            "md5": ["build/**/modules/admin/**/*.js", "!build/**/modules/admin/**/*.min.js"]
+        },
+        "css": {
+            "src": "modules/admin/**/*.css",
+            "dest": "build/modules/admin/",
+            "md5": ["build/**/modules/admin/**/*.css", "!build/**/modules/admin/**/*.min.css"]
+        },
+        "img": {
+          "src": [
+            "modules/admin/**/*.{jpge,jpg,gif,png}"
+          ],
+          "dest": "modules/admin/"
+        },
+        "vendor":[
+
+            "./plugins/slider.revolution/css/extralayers.css",
+            "./plugins/slider.revolution/css/settings.css",
+            "./modules/admin/css/essentials.css",
+            "./modules/admin/css/layout.css",
+            "./modules/admin/css/header-1.css",
+            "./modules/admin/css/color_scheme/blue.css",
+            "./plugins/styleswitcher/styleswitcher.js",
+            "./plugins/slider.revolution/js/jquery.themepunch.revolution.js"
+
+
+
+        ]
+    }
+}
