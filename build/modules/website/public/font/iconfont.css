@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url('/static/build/modules/website/public/font/iconfont.eot?t=1480483355705'); /* IE9*/
-  src: url('/static/build/modules/website/public/font/iconfont.eot?t=1480483355705#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('/static/build/modules/website/public/font/iconfont.woff?t=1480483355705') format('woff'), /* chrome, firefox */
-  url('/static/build/modules/website/public/font/iconfont.ttf?t=1480483355705') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('/static/build/modules/website/public/font/iconfont.svg?t=1480483355705#iconfont') format('svg'); /* iOS 4.1- */
+  src: url(/modules/website/public/font/iconfont.eot?t=1480483355705'); /* IE9*/
+  src: url('/modules/website/public/font/iconfont.eot?t=1480483355705#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('/modules/website/public/font/iconfont.woff?t=1480483355705') format('woff'), /* chrome, firefox */
+  url('/modules/website/public/font/iconfont.ttf?t=1480483355705') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('/modules/website/public/font/iconfont.svg?t=1480483355705#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {

@@ -736,7 +736,7 @@ body.boxed #wrapper {
 	body.grain-blue div.heading-title h4,
 	body.grain-blue div.heading-title h5,
 	body.grain-blue div.heading-title h6 {
-		background:#dce4e9  url('/static/build/modules/website/images/grain_bg.png') repeat;
+		background:#dce4e9  url('/modules/website/images/grain_bg.png') repeat;
 	}
 	/*
 		GRAIN GREY BACKGROUND
@@ -753,7 +753,7 @@ body.boxed #wrapper {
 	body.grain-grey div.heading-title h4,
 	body.grain-grey div.heading-title h5,
 	body.grain-grey div.heading-title h6 {
-		background:#f1f2f7  url('/static/build/modules/website/images/grain_bg.png') repeat;
+		background:#f1f2f7  url('/modules/website/images/grain_bg.png') repeat;
 	}
 	/*
 		GRAIN GREEN BACKGROUND
@@ -770,7 +770,7 @@ body.boxed #wrapper {
 	body.grain-green div.heading-title h4,
 	body.grain-green div.heading-title h5,
 	body.grain-green div.heading-title h6 {
-		background:#e6eeea  url('/static/build/modules/website/images/grain_bg.png') repeat;
+		background:#e6eeea  url('/modules/website/images/grain_bg.png') repeat;
 	}
 	/*
 		GRAIN ORANGE BACKGROUND
@@ -787,7 +787,7 @@ body.boxed #wrapper {
 	body.grain-orange div.heading-title h4,
 	body.grain-orange div.heading-title h5,
 	body.grain-orange div.heading-title h6 {
-		background:#fff4ea  url('/static/build/modules/website/images/grain_bg.png') repeat;
+		background:#fff4ea  url('/modules/website/images/grain_bg.png') repeat;
 	}
 	/*
 		GRAIN YELLOW BACKGROUND
@@ -804,7 +804,7 @@ body.boxed #wrapper {
 	body.grain-yellow div.heading-title h4,
 	body.grain-yellow div.heading-title h5,
 	body.grain-yellow div.heading-title h6 {
-		background:#ffffe6  url('/static/build/modules/website/images/grain_bg.png') repeat;
+		background:#ffffe6  url('/modules/website/images/grain_bg.png') repeat;
 	}
 
 	/* essentials.css rewrite : heading shortcode */
@@ -1171,7 +1171,7 @@ section.page-header {
 			left:0; right:0;
 			width:100%; height:60px;
 			bottom:-60px;
-			background-image:url('/static/build/modules/website/images/misc/shadow1.png');
+			background-image:url('/modules/website/images/misc/shadow1.png');
 			background-size: 100% 100%;
 	}
 	section.page-header.shadow-after-2:before {
@@ -1180,7 +1180,7 @@ section.page-header {
 			left:0; right:0;
 			width:100%; height:60px;
 			bottom:-60px;
-			background-image:url('/static/build/modules/website/images/misc/shadow2.png');
+			background-image:url('/modules/website/images/misc/shadow2.png');
 			background-size: 100% 100%;
 	}
 	section.page-header.shadow-after-3:before {
@@ -1189,7 +1189,7 @@ section.page-header {
 			left:0; right:0;
 			width:100%; height:60px;
 			bottom:-60px;
-			background-image:url('/static/build/modules/website/images/misc/shadow3.png');
+			background-image:url('/modules/website/images/misc/shadow3.png');
 			background-size: 100% 100%;
 	}
 
@@ -1501,7 +1501,7 @@ section.dark.page-header ul.page-options a {
 		left:0; right:0;
 		width:100%; height:60px;
 		bottom:-60px;
-		background-image:url('/static/build/website/images/misc/shadow1.png');
+		background-image:url('/website/images/misc/shadow1.png');
 		background-size: 100% 100%;
 	}
 	#header.shadow-before-1:before {
@@ -1509,7 +1509,7 @@ section.dark.page-header ul.page-options a {
 		position:absolute;
 		left:0; right:0; top:0;
 		width:100%; height:60px;
-		background-image:url('/static/build/website/images/misc/shadow1.png');
+		background-image:url('/website/images/misc/shadow1.png');
 		background-size: 100% 100%;
 	}
 
@@ -1519,7 +1519,7 @@ section.dark.page-header ul.page-options a {
 		left:0; right:0;
 		width:100%; height:60px;
 		bottom:-60px;
-		background-image:url('/static/build/website/images/misc/shadow2.png');
+		background-image:url('/website/images/misc/shadow2.png');
 		background-size: 100% 100%;
 	}
 	#header.shadow-before-2:before {
@@ -1527,7 +1527,7 @@ section.dark.page-header ul.page-options a {
 		position:absolute;
 		left:0; right:0; top:0;
 		width:100%; height:60px;
-		background-image:url('/static/build/website/images/misc/shadow2.png');
+		background-image:url('/website/images/misc/shadow2.png');
 		background-size: 100% 100%;
 	}
 	#header.shadow-after-3:before {
@@ -1536,7 +1536,7 @@ section.dark.page-header ul.page-options a {
 		left:0; right:0;
 		width:100%; height:60px;
 		bottom:-60px;
-		background-image:url('/static/build/website/images/misc/shadow3.png');
+		background-image:url('/website/images/misc/shadow3.png');
 		background-size: 100% 100%;
 	}
 	#header.shadow-before-3:before {
@@ -1544,7 +1544,7 @@ section.dark.page-header ul.page-options a {
 		position:absolute;
 		left:0; right:0; top:0;
 		width:100%; height:60px;
-		background-image:url('/static/build/website/images/misc/shadow3.png');
+		background-image:url('/website/images/misc/shadow3.png');
 		background-size: 100% 100%;
 	}
 
@@ -1993,7 +1993,7 @@ section.dark.page-header ul.page-options a {
 		text-transform:uppercase;
 	}
 		body.menu-vertical #mainMenu.sidebar-vertical .navbar-default .navbar-nav>li>a.dropdown-toggle {
-			background-image: url('/static/build/website/images/submenu_light.png');
+			background-image: url('/website/images/submenu_light.png');
 			background-position:center right;
 			background-repeat:no-repeat;
 		}
@@ -2198,7 +2198,7 @@ section.dark.page-header ul.page-options a {
 		border-bottom-color:rgba(255,255,255,0.1);
 	}
 	body.menu-vertical #mainMenu.sidebar-vertical.sidebar-dark .navbar-default .navbar-nav>li>a.dropdown-toggle {
-		background-image: url('/static/build/website/images/submenu_dark.png');
+		background-image: url('/website/images/submenu_dark.png');
 	}
 	body.menu-vertical #mainMenu.sidebar-vertical.sidebar-dark .sidebar-nav .navbar li a {
 		color:#ccc;
@@ -3512,7 +3512,7 @@ section.dark.page-header ul.page-options a {
 
 	/* LIGHT SUBMENU */
 	#topNav ul.dropdown-menu a.dropdown-toggle {
-		background-image: url('/static/build/website/images/submenu_light.png');
+		background-image: url('/website/images/submenu_light.png');
 	}
 
 
@@ -3521,7 +3521,7 @@ section.dark.page-header ul.page-options a {
 		background-color:#333;
 	}
 	#topNav div.submenu-dark ul.dropdown-menu a.dropdown-toggle {
-		background-image: url('/static/build/website/images/submenu_dark.png');
+		background-image: url('/website/images/submenu_dark.png');
 	}
 	#topNav div.submenu-dark ul.dropdown-menu li.active>a,
 	#topNav div.submenu-dark ul.dropdown-menu li.active:hover>a,
@@ -5513,7 +5513,7 @@ section#slider .btn-default {
 		display:inline-block;
 		width:22px;
 		height:22px;
-		background:url('/static/build/website/images/plugins/slider.nivo/bullets.png') no-repeat;
+		background:url('/website/images/plugins/slider.nivo/bullets.png') no-repeat;
 		text-indent:-9999px;
 		border:0;
 		margin: 0 2px;
@@ -6895,7 +6895,7 @@ section.dark.alternate .timeline .timeline-entry {
 	.timeline_center {
 		margin: 0;
 		position: relative;
-		background: url('/static/build/website/images/timeline/timeline_top.png') no-repeat top center;
+		background: url('/website/images/timeline/timeline_top.png') no-repeat top center;
 		padding-top: 9px;
 	}
 	.timeline_center:after {
@@ -6917,11 +6917,11 @@ section.dark.alternate .timeline .timeline-entry {
 	.timeline_center li {
 		padding: 0 0 25px 55%;
 		position: relative;
-		background: url('/static/build/website/images/timeline/timeline_right.png') no-repeat top center;
+		background: url('/website/images/timeline/timeline_right.png') no-repeat top center;
 	}
 	.timeline_center li:nth-child(even) {
 		padding: 0 55% 25px 0;
-		background: url('/static/build/website/images/timeline/timeline_left.png') no-repeat top center;
+		background: url('/website/images/timeline/timeline_left.png') no-repeat top center;
 		text-align:right;
 	}
 
@@ -6973,7 +6973,7 @@ section.dark.alternate .timeline .timeline-entry {
 		top: 0;
 	}
 	.timeline_center li .timeline-desc.timeline-desc-line {
-		background: url('/static/build/website/images/timeline/textline.png') repeat-y;
+		background: url('/website/images/timeline/textline.png') repeat-y;
 	}
 	.timeline_center li:nth-child(even) .timeline-desc:before {
 		left: auto;
@@ -6990,7 +6990,7 @@ section.dark.alternate .timeline .timeline-entry {
 
 	@media only screen and (max-width: 650px) {
 		.timeline_center { background-position: 11px top; }
-		.timeline_center li { padding: 0 0 25px 70px !important; background: url('/static/build/website/images/timeline/timeline_right.png') no-repeat !important; background-position: -30px top !important; width: auto; }
+		.timeline_center li { padding: 0 0 25px 70px !important; background: url('/website/images/timeline/timeline_right.png') no-repeat !important; background-position: -30px top !important; width: auto; }
 		.timeline_center li h3 span { position:relative; display:block; right:auto; left:auto; padding:5px 0 !important; margin:0; }
 		.timeline_center li:nth-child(even) h3 span { position:relative; display:block; right:auto; left:auto; padding:0; margin:0; }
 		.timeline_center li h3 { font-size:24px; line-height:24px; }
@@ -7399,12 +7399,12 @@ ul.search-history {
 
 	/* footer contact text */
 	#footer address {
-		background:url('/static/build/modules/website/images/world-map.png') no-repeat center;
+		background:url('/modules/website/images/world-map.png') no-repeat center;
 	}
 	#footer address .footer-sprite {
 		margin-bottom:20px;
 		padding-left:30px;
-		background:url('/static/build/modules/website/images/footer_sprite.png') no-repeat 0 0;
+		background:url('/modules/website/images/footer_sprite.png') no-repeat 0 0;
 	}
 		#footer address .footer-sprite:last-child {
 			margin-bottom:0;
