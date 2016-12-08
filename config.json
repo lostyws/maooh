@@ -31,7 +31,7 @@
             "./modules/website/css/header-1.css",
             "./modules/website/css/color_scheme/blue.css",
             "./modules/website/public/font/iconfont.css",
-           
+            "./modules/website/css/maooh.css",
             "./plugins/slider.revolution/js/jquery.themepunch.revolution.js",
             "./modules/website/js/view/demo.revolution_slider.js"
 

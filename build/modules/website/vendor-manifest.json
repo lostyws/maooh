@@ -8,7 +8,8 @@
     "./modules/website/css/header-1.css": 11,
     "./modules/website/css/color_scheme/blue.css": 13,
     "./modules/website/public/font/iconfont.css": 15,
-    "./plugins/slider.revolution/js/jquery.themepunch.revolution.js": 17,
-    "./modules/website/js/view/demo.revolution_slider.js": 18
+    "./modules/website/css/maooh.css": 17,
+    "./plugins/slider.revolution/js/jquery.themepunch.revolution.js": 19,
+    "./modules/website/js/view/demo.revolution_slider.js": 20
   }
 }
