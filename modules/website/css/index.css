@@ -184,3 +184,27 @@ div.side-nav ul.list-group-bordered>li>span {
 	color: #999;
 	font-size: 24px;
 }
+.show-hidden-icon {
+	color: #999;
+	cursor: pointer;
+	width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+.show-hidden-icon>a {
+	color: #999;
+
+}
+.show-hidden-icon:hover {
+	color: #179bd7;
+	animation: switchReverse 5s;
+	-webkit-animation: switchReverse 5s;
+}
+@keyframes switchReverse{
+    from {width: 20px;}
+	to {width: 100%;}
+}
+@-webkit-keyframes switchReverse{
+    from {width: 20px;}
+	to {width: 100%;}
+}
